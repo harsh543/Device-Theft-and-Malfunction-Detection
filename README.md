@@ -5,7 +5,7 @@ We couldn't figure out what we wanted to do as a project, and then we decided to
 
 ## What it does?
 
-I learned how to use the Arduino IDE for the first time. I initially tried learning java and android studio, and some things stuck, but not much. Also, I got hand on experience in the Arduino IDE, and learned that the analog input for Arduino are basically voltages between 0 and 5 volts. Also, seeing as much of the syntax and the typing is very similar to java and C++, I think that by using the Arduino IDE I broadened my coding skills. Implemented IoT devices which prevents damage or theft of sensitive information. We integrated the temperature and the light sensor with IoT device. This will help prevent theft by checking light exposure if it's within the original limits it means the objects are at their own place. The system also prevents damage of the object by sensing the temperature and determining whether the object has caught fire or exposed to heat this is done by emission of temperature sensor on the device.
+Implemented IoT  devices which prevents damage or theft of sensitive information. We integrated the temperature and the light sensor with IoT device. This will help prevent theft by checking light exposure if it's within the original limits it means the objects are at their own place. The system also prevents damage of the object by sensing the temperature and determining whether the object has caught fire or exposed to heat this is done by emission of temperature sensor on the device.
 
 ## How we built it 
 
