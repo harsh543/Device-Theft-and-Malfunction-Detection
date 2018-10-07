@@ -1,6 +1,6 @@
 # Device-Theft-and-Malfunction-Detection
 
-<img src="flow.png" height="300"></img>
+<img src="flow.png" height="500"></img>
 
 ## Inspiration 
 We couldn't figure out what we wanted to do as a project, and then we decided to implement a data safety solution.We saw the importance of discarded objects which can be utilized to make profit.
