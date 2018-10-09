@@ -17,7 +17,7 @@ The monitoring app is designed in Node.js with an Express server running to rece
 Arduino 101 was very old so the commands we could use and interface were limited.
 The Dragon devices had network issues as they were in PEAP encrypted wifi.As these were IoT devices dragonboard went to power saving mode and henc not reachable.
 
-## Accomplishments that I'm proud of 
+## Accomplishments that we are proud of 
 Coming up with the Hackathon for Security using the new technolgies like Dragonboard, Kubernetes, Docker, Spark(Big Data)
 
 
