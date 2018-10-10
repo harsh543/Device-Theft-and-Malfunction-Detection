@@ -24,3 +24,12 @@ Coming up with the Hackathon for Security using the new technolgies like Dragonb
 For Quick  Demo -
 
 https://www.youtube.com/watch?v=3Jg3FfQGt1s&feature=youtu.be
+
+
+## Steps to run the Malfunction and device theft application:
+
+1.) Set up the Dragonboard 49c using linux os. Once done with this store the python script dragonboard.py present inside the Client folder into the Dragonboard memory. 
+
+2.) Once you run the python script on the dragonboard the location of the dragonboard gets transmitted using a python post request on to the node js backend which is displayed over the front end application which can be found inside the MonitoringApp folder.
+
+3.) Now setup the light sensing and temperature sensing in Arduino 101 using the code present inside the Client folder under Lightsensor.ino. This sends an alarm to the Monitoring app above and starts beeping in case of excessive light sensitivity then what is supposed to be there or excessive temperature change.
