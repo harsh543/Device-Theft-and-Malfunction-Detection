@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" />
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css"/>
     <style>
 
         .map {
@@ -19,7 +19,7 @@
     <script>
 
 
-        function loadJS(){
+        function loadJS() {
             var idx = document.URL.indexOf('?');
             params = {};
             if (idx != -1) {
@@ -29,7 +29,7 @@
                     params[nameVal[0]] = nameVal[1];
                 }
             }
-            var url = "http://localhost:3001/json/"+unescape(params["deviceId"]) + ".json";
+            var url = "http://localhost:3001/json/" + unescape(params["deviceId"]) + ".json";
             let loc = "";
             $.get(url, function (data) {
                 console.log("Get call successful" + JSON.stringify(data));
@@ -79,7 +79,6 @@
     </script>
 
 </head>
-
 
 
 <body onload="loadJS()">

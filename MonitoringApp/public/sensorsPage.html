@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Device Sensors</title>
     <script type="application/javascript" src="js/jquery.min.js"></script>
-    <script type="application/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="application/javascript" src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -15,7 +15,7 @@
         var myData = $.get("http://localhost:3001/json/sensorsData.json", function (item) {
             console.log("Get call successful" + JSON.stringify(item));
 
-                $('<tr>').html("<td>" + item.temperature + "</td><td>" + item.light + "</td>"+"<td>" + item.alert + "</td>").appendTo('#table');
+            $('<tr>').html("<td>" + item.temperature + "</td><td>" + item.light + "</td>" + "<td>" + item.alert + "</td>").appendTo('#table');
 
         })
             .fail(function () {
